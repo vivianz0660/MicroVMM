@@ -1,7 +1,7 @@
 # Micro VMM
 A custom hypervisor using the Linux KVM API
 
-# Requirements
+# Features
 - Target Architecture: Designed for x86-64, running on Linux using KVM.
 - Binary File: Accept a binary file as a command-line argument, load it into guest memory, and run it.
 - Console Device: Implement a simple line-buffered console that saves bytes to a buffer and prints it when a newline is written to IO port 0x42.
