@@ -15,4 +15,6 @@ A custom hypervisor using the Linux KVM API
 - ~> make
 - ~> sudo ./basic-vmm smallkern
 
-# Prerequisites : ncurses, nasm
+# Prerequisites 
+- ncurses
+- nasm
