@@ -12,8 +12,7 @@ A custom hypervisor using the Linux KVM API
 - Event Handling: The guest echoes input to the console after the user presses enter, on every timer event, until a new line is entered.
 
 # To run program:
-
-~> make
-~> sudo ./basic-vmm smallkern
+- ~> make
+- ~> sudo ./basic-vmm smallkern
 
 # Prerequisites : ncurses, nasm
